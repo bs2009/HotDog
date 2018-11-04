@@ -12,6 +12,7 @@
 		BB28606F218F7474001EA8D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB28606D218F7474001EA8D3 /* Main.storyboard */; };
 		BB286071218F7478001EA8D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB286070218F7478001EA8D3 /* Assets.xcassets */; };
 		BB286074218F7478001EA8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB286072218F7478001EA8D3 /* LaunchScreen.storyboard */; };
+		BB28607C218F764E001EA8D3 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BB28607B218F764E001EA8D3 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BB286070218F7478001EA8D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB286073218F7478001EA8D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB286075218F7478001EA8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB28607B218F764E001EA8D3 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				BB28606B218F7474001EA8D3 /* ViewController.swift */,
 				BB28606D218F7474001EA8D3 /* Main.storyboard */,
 				BB286070218F7478001EA8D3 /* Assets.xcassets */,
+				BB28607B218F764E001EA8D3 /* Inceptionv3.mlmodel */,
 				BB286072218F7478001EA8D3 /* LaunchScreen.storyboard */,
 				BB286075218F7478001EA8D3 /* Info.plist */,
 			);
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB28606C218F7474001EA8D3 /* ViewController.swift in Sources */,
+				BB28607C218F764E001EA8D3 /* Inceptionv3.mlmodel in Sources */,
 				BB28606A218F7474001EA8D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWM47XD3XT;
 				INFOPLIST_FILE = HotDog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.billsong.HotDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JWM47XD3XT;
 				INFOPLIST_FILE = HotDog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.billsong.HotDog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
